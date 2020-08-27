@@ -59,6 +59,9 @@ app.get("/artists",(req,res)=>{
 app.get("/home",(req,res)=>{
 	res.render('home')
 })
+app.get("/workspace",(req,res)=>{
+	res.render('workspace')
+})
 
 
 
